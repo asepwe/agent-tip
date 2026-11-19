@@ -1,5 +1,7 @@
 # AgentTip — tip any Agent ID by its .ai name
 
+**Live site: https://asepwe.github.io/agent-tip/**
+
 Binance Agent ID Hackathon entry (submission closes **9 Dec 2026 15:00 WIB**,
 60,000 USDC pot). Send BNB to an Agent ID holder by name — `tip("nanako.ai", "gg")`
 or `tip("nanako", "gg")` — resolved on-chain via the SPACE ID HandleRegistry.
@@ -33,8 +35,8 @@ tokenId = `uint256(keccak256(bytes(handle)))`, handle WITHOUT `.ai`;
   block 134459529) via the [CreateX](https://github.com/pcaversaccio/createx)
   factory `0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed` (`deployCreate`)
 - ✅ Source verified on Sourcify (**exact_match**, creation + runtime)
-- ⏳ Frontend, promotion to **≥30 Agent ID holders** (Innovation needs 30+
-  interacting addresses + live product), submit before 9 Dec 15:00 WIB
+- ✅ **Frontend live: https://asepwe.github.io/agent-tip/** (`docs/`, GitHub Pages) — connect wallet (MetaMask/Binance Wallet extension, BSC), tip form with recipient preview, stats + recent tips, all reads via public RPC. No Agentic Wallet QR login (hackathon red line), every tip is confirmed in the user's own wallet.
+- ⏳ Promotion to **≥30 Agent ID holders** (Innovation needs 30+ interacting addresses + live product), submit before 9 Dec 15:00 WIB
 
 ## Commands
 
